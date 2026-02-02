@@ -1,0 +1,135 @@
+import Link from "next/link"
+import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react"
+
+const footerLinks = {
+  services: [
+    { label: "Direito Empresarial", href: "#servicos" },
+    { label: "Direito Civil", href: "#servicos" },
+    { label: "Direito Imobiliário", href: "#servicos" },
+    { label: "Direito Trabalhista", href: "#servicos" },
+    { label: "Direito Tributário", href: "#servicos" },
+    { label: "Direito de Família", href: "#servicos" },
+  ],
+  quickLinks: [
+    { label: "Sobre o Escritório", href: "#sobre" },
+    { label: "Nossa Equipe", href: "#equipe" },
+    { label: "Depoimentos", href: "#depoimentos" },
+    { label: "Contato", href: "#contato" },
+  ],
+  social: [
+    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Instagram, href: "#", label: "Instagram" },
+    { icon: Facebook, href: "#", label: "Facebook" },
+    { icon: Youtube, href: "#", label: "YouTube" },
+  ],
+}
+
+export function Footer() {
+  return (
+    <footer className="bg-card border-t border-border">
+      <div className="container mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+          {/* Brand */}
+          <div className="lg:col-span-1">
+            <Link href="/" className="flex flex-col mb-6">
+              <span className="text-2xl font-semibold tracking-wider text-primary">MENDES</span>
+              <span className="text-[10px] tracking-[0.2em] text-muted-foreground uppercase">
+                Advocacia e Assessoria Jurídica
+              </span>
+            </Link>
+            <p className="text-muted-foreground text-sm leading-relaxed mb-6">
+              Defendendo seus direitos com excelência há mais de 20 anos. 
+              Compromisso, ética e resultados.
+            </p>
+            {/* Social Links */}
+            <div className="flex gap-3">
+              {footerLinks.social.map((social) => (
+                <Link
+                  key={social.label}
+                  href={social.href}
+                  className="w-10 h-10 border border-border flex items-center justify-center hover:bg-primary hover:border-primary hover:text-primary-foreground transition-colors"
+                  aria-label={social.label}
+                >
+                  <social.icon className="h-5 w-5" />
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h4 className="font-semibold mb-6 text-lg">Áreas de Atuação</h4>
+            <ul className="space-y-3">
+              {footerLinks.services.map((link) => (
+                <li key={link.label}>
+                  <Link
+                    href={link.href}
+                    className="text-muted-foreground text-sm hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h4 className="font-semibold mb-6 text-lg">Links Rápidos</h4>
+            <ul className="space-y-3">
+              {footerLinks.quickLinks.map((link) => (
+                <li key={link.label}>
+                  <Link
+                    href={link.href}
+                    className="text-muted-foreground text-sm hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h4 className="font-semibold mb-6 text-lg">Contato</h4>
+            <address className="not-italic text-muted-foreground text-sm space-y-3">
+              <p>
+                Av. Paulista, 1000 - 15º andar<br />
+                Bela Vista, São Paulo - SP<br />
+                CEP: 01310-100
+              </p>
+              <p>
+                <Link href="tel:+551130000000" className="hover:text-primary transition-colors">
+                  (11) 3000-0000
+                </Link>
+              </p>
+              <p>
+                <Link href="mailto:contato@mendesadvocacia.com.br" className="hover:text-primary transition-colors">
+                  contato@mendesadvocacia.com.br
+                </Link>
+              </p>
+            </address>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Bar */}
+      <div className="border-t border-border">
+        <div className="container mx-auto px-4 py-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
+            <p>&copy; {new Date().getFullYear()} Mendes Advocacia. Todos os direitos reservados.</p>
+            <div className="flex gap-6">
+              <Link href="#" className="hover:text-primary transition-colors">
+                Política de Privacidade
+              </Link>
+              <Link href="#" className="hover:text-primary transition-colors">
+                Termos de Uso
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
