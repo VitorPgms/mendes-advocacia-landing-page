@@ -4,8 +4,8 @@ import { Scale, Shield, Award, Users } from "lucide-react"
 const features = [
   {
     icon: Scale,
-    title: "Tradição Jurídica",
-    description: "Duas décadas de atuação no mercado jurídico brasileiro com excelência e resultados comprovados.",
+    title: "Atuação Jurídica Responsável",
+    description: "Atuação focada em soluções jurídicas seguras, com base técnica sólida, atualização constante e compromisso com a correta aplicação do Direito.",
   },
   {
     icon: Shield,
@@ -15,12 +15,12 @@ const features = [
   {
     icon: Award,
     title: "Excelência",
-    description: "Equipe altamente qualificada e em constante atualização nas mais diversas áreas do direito.",
+    description: "Advocacia fundamentada em sólida formação acadêmica, com pós-graduações em áreas estratégicas do Direito e constante aperfeiçoamento profissional.",
   },
   {
     icon: Users,
     title: "Atendimento Personalizado",
-    description: "Cada cliente recebe atenção exclusiva e soluções jurídicas sob medida para suas necessidades.",
+    description: "Cada caso é analisado de forma individual, com atenção direta do advogado e estratégias jurídicas pensadas conforme a real necessidade do cliente.",
   },
 ]
 
@@ -51,14 +51,13 @@ export function AboutSection() {
               Sobre o Escritório <span className="text-primary">Mendes</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Fundado em 2023, o escritório Mendes Advocacia e Assessoria Jurídica nasceu com 
-              o propósito de oferecer serviços jurídicos de alta qualidade, combinando tradição 
-              e inovação para atender às demandas cada vez mais complexas do mundo contemporâneo.
+              O Mendes – Advocacia e Consultoria é um escritório jurídico que atua com foco em ética, 
+              técnica e responsabilidade, oferecendo atendimento personalizado e soluções jurídicas 
+              eficientes.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-10">
-              Nossa equipe é formada por advogados especializados em diversas áreas do direito, 
-              comprometidos em defender os interesses de nossos clientes com dedicação, competência 
-              e resultados concretos.
+              Fundado em 2023, o escritório nasceu com o propósito de unir atualização acadêmica constante, 
+              experiência prática e comprometimento com o cliente, sempre buscando a melhor estratégia para cada caso.
             </p>
 
             {/* Features Grid */}

@@ -3,27 +3,27 @@ import Link from "next/link"
 
 const services = [
   {
-    icon: Users,
+    icon: Gavel,
     title: "Direito Trabalhista",
-    description: "Defesa dos interesses de empregadores e empregados em todas as instâncias trabalhistas.",
+    description: "Atuação na defesa dos direitos de empregados e empregadores, com foco em ações trabalhistas, rescisões, verbas trabalhistas e orientações preventivas.",
     areas: ["Consultivo", "Contencioso", "Acordos", "Compliance"],
   },
   {
     icon: Building2,
-    title: "Direito Imobiliário",
-    description: "Consultoria especializada em transações imobiliárias, regularização e contencioso.",
+    title: "Direito Júri",
+    description: "Atuação em processos criminais de competência do Tribunal do Júri, com experiência prática em audiências e plenários, sempre pautada na técnica e na estratégia jurídica.",
     areas: ["Compra e Venda", "Locação", "Regularização", "Due Diligence"],
   },
   {
-    icon: Gavel,
-    title: "Direito Civil",
-    description: "Atuação em todas as esferas do direito civil, protegendo seus direitos e interesses patrimoniais.",
+    icon: Home,
+    title: "Direito Imobiliário",
+    description: "Atuação em contratos, regularização de imóveis, compra e venda, locação e análise jurídica preventiva para segurança patrimonial.",
     areas: ["Responsabilidade Civil", "Contratos", "Sucessões", "Família"],
   },
   {
-    icon: Home,
+    icon: Users,
     title: "Direito de Família",
-    description: "Acompanhamento humanizado em questões familiares com foco em soluções consensuais.",
+    description: "Assessoria em questões familiares como divórcio, pensão alimentícia, guarda, partilha de bens e orientações jurídicas sensíveis e humanizadas.",
     areas: ["Divórcio", "Guarda", "Pensão", "Inventário"],
   },
 ]

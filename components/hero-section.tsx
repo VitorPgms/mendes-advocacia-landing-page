@@ -49,18 +49,6 @@ export function HeroSection() {
               </Link>
             </Button>
           </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-border/50">
-            <div>
-              <p className="text-3xl md:text-4xl font-semibold text-primary">100+</p>
-              <p className="text-sm text-muted-foreground mt-1">Casos Resolvidos</p>
-            </div>
-            <div>
-              <p className="text-3xl md:text-4xl font-semibold text-primary">98%</p>
-              <p className="text-sm text-muted-foreground mt-1">Clientes Satisfeitos</p>
-            </div>
-          </div>
         </div>
       </div>
 
