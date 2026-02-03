@@ -7,32 +7,39 @@ import { Button } from "@/components/ui/button"
 const testimonials = [
   {
     id: 1,
-    content: "O escritório Mendes foi fundamental na resolução do meu caso empresarial. A equipe demonstrou profundo conhecimento técnico e comprometimento total com os meus interesses. Recomendo sem hesitação.",
-    author: "Carlos Eduardo Silva",
-    role: "CEO, Tech Solutions Brasil",
+    content: "Ótimo trabalho, um atendimento de qualidade. Dedicação total para proporcionar o melhor pro cliente",
+    author: "Kayk Fogaça",
+    role: "",
     rating: 5,
   },
   {
     id: 2,
-    content: "Durante anos busquei uma assessoria jurídica de confiança. No escritório Mendes encontrei não apenas competência, mas também humanidade no atendimento. São profissionais excepcionais.",
-    author: "Maria Fernanda Costa",
-    role: "Empresária",
+    content: "O atendimento ótimo, e a rapidez ótima, excelente atendimento, só tenho a agradecer, muito obrigado",
+    author: "Pedro Ramos",
+    role: "",
     rating: 5,
   },
   {
     id: 3,
-    content: "A Dra. Mariana conduziu meu processo de divórcio com extrema sensibilidade e profissionalismo. Obtivemos um acordo justo e célere. Sou muito grata por todo o suporte.",
-    author: "Ana Paula Mendonça",
-    role: "Médica",
+    content: "Ótimo.. atendimento diferenciado e atenção total ao cliente...",
+    author: "Cleberson Acústico",
+    role: "",
     rating: 5,
   },
   {
     id: 4,
-    content: "Excelente atendimento em questões trabalhistas. O Dr. Felipe resolveu uma situação complexa com a empresa onde trabalhei. Profissionais sérios e comprometidos.",
-    author: "Roberto Nascimento",
-    role: "Engenheiro",
+    content: "Show! Ótimos profissionais, prestativos, atenciosos e sempre empenhados nas soluções dos casos! Parabéns!",
+    author: "Valdir Izuperio",
+    role: "",
     rating: 5,
   },
+  {
+    id: 5,
+    content: "Melhor escritório da região, ótimo atendimento e profissionalismo!!!",
+    author: "Maria Eduarda Casselin",
+    role: "",
+    rating: 5,
+  }
 ]
 
 export function TestimonialsSection() {
