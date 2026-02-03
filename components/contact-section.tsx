@@ -25,26 +25,24 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Telefone",
-    content: "(11) 3000-0000\n(11) 99999-9999",
+    content: "(18) 9 9701-3180",
   },
   {
     icon: Mail,
     title: "E-mail",
-    content: "contato@mendesadvocacia.com.br",
+    content: "joaovmendes.adv@gmail.com",
   },
   {
     icon: Clock,
     title: "Horário de Atendimento",
-    content: "Segunda a Sexta: 9h às 18h\nSábado: 9h às 13h",
+    content: "Segunda a Sexta: 8h às 18h\nSábado: 9h às 13h\nApós às 18h apenas Prisões em Flagrante ou acompanhamento em Boletim de Ocorrência.",
   },
 ]
 
 const serviceAreas = [
-  "Direito Empresarial",
-  "Direito Civil",
-  "Direito Imobiliário",
   "Direito Trabalhista",
-  "Direito Tributário",
+  "Direito Imobiliário",
+  "Tribunal do Júri",
   "Direito de Família",
   "Outro",
 ]
