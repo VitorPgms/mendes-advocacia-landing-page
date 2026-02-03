@@ -4,7 +4,7 @@ import { Scale, Shield, Award, Users } from "lucide-react"
 
 export function AboutProfile() {
   return (
-    <section id="sobre" className="py-24 bg-secondary">
+    <section id="sobreAdv" className="py-24 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image */}

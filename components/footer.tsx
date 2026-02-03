@@ -3,16 +3,14 @@ import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react"
 
 const footerLinks = {
   services: [
-    { label: "Direito Empresarial", href: "#servicos" },
-    { label: "Direito Civil", href: "#servicos" },
     { label: "Direito Imobiliário", href: "#servicos" },
     { label: "Direito Trabalhista", href: "#servicos" },
-    { label: "Direito Tributário", href: "#servicos" },
+    { label: "Tribunal do Júri", href: "#servicos" },
     { label: "Direito de Família", href: "#servicos" },
   ],
   quickLinks: [
     { label: "Sobre o Escritório", href: "#sobre" },
-    { label: "Nossa Equipe", href: "#equipe" },
+    { label: "Sobre o Advogado", href: "#sobreAdv" },
     { label: "Depoimentos", href: "#depoimentos" },
     { label: "Contato", href: "#contato" },
   ],
@@ -34,26 +32,13 @@ export function Footer() {
             <Link href="/" className="flex flex-col mb-6">
               <span className="text-2xl font-semibold tracking-wider text-primary">MENDES</span>
               <span className="text-[10px] tracking-[0.2em] text-muted-foreground uppercase">
-                Advocacia e Assessoria Jurídica
+                Advocacia e Consultoria
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               Defendendo seus direitos com excelência há mais de 20 anos. 
               Compromisso, ética e resultados.
             </p>
-            {/* Social Links */}
-            <div className="flex gap-3">
-              {footerLinks.social.map((social) => (
-                <Link
-                  key={social.label}
-                  href={social.href}
-                  className="w-10 h-10 border border-border flex items-center justify-center hover:bg-primary hover:border-primary hover:text-primary-foreground transition-colors"
-                  aria-label={social.label}
-                >
-                  <social.icon className="h-5 w-5" />
-                </Link>
-              ))}
-            </div>
           </div>
 
           {/* Services */}
