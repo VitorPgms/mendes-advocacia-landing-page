@@ -52,15 +52,41 @@ export function ContactSection() {
   const [isLoading, setIsLoading] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setIsLoading(true)
-    
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-    
-    setIsLoading(false)
-    setIsSubmitted(true)
+  e.preventDefault()
+  setIsLoading(true)
+
+  const formData = new FormData(e.currentTarget)
+
+  const data = {
+    name: formData.get("name"),
+    email: formData.get("email"),
+    phone: formData.get("phone"),
+    service: formData.get("service"),
+    message: formData.get("message"),
   }
+
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+
+    if (!res.ok) {
+      throw new Error("Erro ao enviar")
+    }
+
+    setIsSubmitted(true)
+  } catch (error) {
+  console.error("ERRO NO ENVIO:", error)
+  alert("Erro ao enviar mensagem. Tente novamente.")
+} finally {
+    setIsLoading(false)
+  }
+}
+
 
   return (
     <section id="contato" className="py-24 bg-secondary">
