@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Endereço",
-    content: "Av. Paulista, 1000 - 15º andar\nBela Vista, São Paulo - SP",
+    content: "Largo Sete Setembro, nº1000 - 5º andar\n Sé, São Paulo - SP\n\nRua Maria Paula Gambier Costa, nº960\n Centro, Paraguaçu Paulista - SP",
   },
   {
     icon: Phone,
@@ -30,12 +30,12 @@ const contactInfo = [
   {
     icon: Mail,
     title: "E-mail",
-    content: "joaovmendes.adv@gmail.com",
+    content: "mendesadvocaciaeconsultoria@hotmail.com",
   },
   {
     icon: Clock,
     title: "Horário de Atendimento",
-    content: "Segunda a Sexta: 8h às 18h\nSábado: 9h às 13h\nApós às 18h apenas Prisões em Flagrante ou acompanhamento em Boletim de Ocorrência.",
+    content: "Segunda a Sexta: 8h às 18h\nApós às 18h apenas Prisões em Flagrante ou acompanhamento em Boletim de Ocorrência.",
   },
 ]
 

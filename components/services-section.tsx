@@ -10,8 +10,8 @@ const services = [
   },
   {
     icon: Building2,
-    title: "Direito Júri",
-    description: "Atuação em processos criminais de competência do Tribunal do Júri, com experiência prática em audiências e plenários, sempre pautada na técnica e na estratégia jurídica.",
+    title: "Direito Criminal e Tribunal do Júri",
+    description: "Atuação em processos criminais de competência comum e Tribunal do Júri.",
     areas: ["Compra e Venda", "Locação", "Regularização", "Due Diligence"],
   },
   {
@@ -23,8 +23,8 @@ const services = [
   {
     icon: Users,
     title: "Direito de Família",
-    description: "Assessoria em questões familiares como divórcio, pensão alimentícia, guarda, partilha de bens e orientações jurídicas sensíveis e humanizadas.",
-    areas: ["Divórcio", "Guarda", "Pensão", "Inventário"],
+    description: "Atuação em questões familiares como divórcio, pensão alimentícia, guarda, partilha de bens, visitas e orientações jurídicas sensíveis e humanizadas.",
+    areas: ["Divórcio", "Guarda", "Pensão", "Inventário, Visitas"],
   },
 ]
 

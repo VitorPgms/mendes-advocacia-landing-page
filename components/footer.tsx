@@ -1,25 +1,18 @@
 import Link from "next/link"
-import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react"
 
 const footerLinks = {
   services: [
-    { label: "Direito Imobiliário", href: "#servicos" },
     { label: "Direito Trabalhista", href: "#servicos" },
-    { label: "Tribunal do Júri", href: "#servicos" },
+    { label: "Direito Criminal e Tribunal do Júri", href: "#servicos" },
     { label: "Direito de Família", href: "#servicos" },
+    { label: "Direito Imobiliário", href: "#servicos" },
   ],
   quickLinks: [
     { label: "Sobre o Escritório", href: "#sobre" },
     { label: "Sobre o Advogado", href: "#sobreAdv" },
     { label: "Depoimentos", href: "#depoimentos" },
     { label: "Contato", href: "#contato" },
-  ],
-  social: [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Youtube, href: "#", label: "YouTube" },
-  ],
+  ]
 }
 
 export function Footer() {
@@ -80,18 +73,21 @@ export function Footer() {
             <h4 className="font-semibold mb-6 text-lg">Contato</h4>
             <address className="not-italic text-muted-foreground text-sm space-y-3">
               <p>
-                Av. Paulista, 1000 - 15º andar<br />
-                Bela Vista, São Paulo - SP<br />
-                CEP: 01310-100
+                Largo Sete Setembro, nº1000 - 5º andar<br />
+                Sé, São Paulo - SP<br />
               </p>
               <p>
-                <Link href="tel:+551130000000" className="hover:text-primary transition-colors">
-                  (11) 3000-0000
+                Rua Maria Paula Gambier Costa, nº960<br />
+                Centro, Paraguaçu Paulista - SP<br />
+              </p>
+              <p>
+                <Link href="tel:+5518997013180" className="hover:text-primary transition-colors">
+                  (18) 9 9701-3180
                 </Link>
               </p>
               <p>
-                <Link href="mailto:contato@mendesadvocacia.com.br" className="hover:text-primary transition-colors">
-                  contato@mendesadvocacia.com.br
+                <Link href="mailto:mendesadvocaciaeconsultoria@hotmail.com" className="hover:text-primary transition-colors">
+                  mendesadvocaciaeconsultoria@hotmail.com
                 </Link>
               </p>
             </address>
