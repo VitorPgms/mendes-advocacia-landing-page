@@ -127,7 +127,7 @@ export function ContactSection() {
             {/* Map Placeholder */}
             <div className="relative aspect-video bg-card border border-border overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1976050594776!2d-46.6565089!3d-23.5631983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1706389000000!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d323.2748430713309!2d-46.634234427340544!3d-23.552731394154407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59aa29fbeb65%3A0x1102bfe3a957c291!2sLargo%20Sete%20de%20Setembro!5e0!3m2!1spt-BR!2sbr!4v1770685677196!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

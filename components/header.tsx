@@ -12,7 +12,7 @@ export function Header() {
     { href: "#inicio", label: "Início" },
     { href: "#sobre", label: "Sobre" },
     { href: "#servicos", label: "Serviços" },
-    { href: "#equipe", label: "Equipe" },
+    { href: "#sobreAdv", label: "Quem sou" },
     { href: "#depoimentos", label: "Depoimentos" },
     { href: "#contato", label: "Contato" },
   ]
