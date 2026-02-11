@@ -35,7 +35,7 @@ export function AboutProfile() {
             </p>
 
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Inscrito na <strong>OAB/SP nº 490.867</strong>, é graduado pelo
+              Inscrito na <strong>OAB/SP nº 490.687</strong>, é graduado pelo
               <strong> Centro Universitário Eurípides de Marília – UNIVEM</strong> e
               iniciou sua atuação profissional em 2023.
             </p>
@@ -49,7 +49,7 @@ export function AboutProfile() {
             <p className="text-muted-foreground leading-relaxed mb-6">
               Ao longo de sua atuação, já atendeu <strong>mais de 100 casos</strong> nos
               âmbitos judicial e extrajudicial, com experiência prática em
-              <strong> Tribunal do Júri</strong>, <strong>Direito do Trabalho</strong> e
+              <strong> Tribunal do Júri</strong>,<strong>Direito Criminal</strong>, <strong>Direito do Trabalho</strong> e
               <strong> Direito de Família</strong>, incluindo atuação em demandas
               sindicais.
             </p>

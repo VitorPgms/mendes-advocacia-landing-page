@@ -29,7 +29,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              Defendendo seus direitos com excelência há mais de 20 anos. 
+              Defendendo seus direitos com excelência há mais de 3 anos. 
               Compromisso, ética e resultados.
             </p>
           </div>
@@ -73,7 +73,7 @@ export function Footer() {
             <h4 className="font-semibold mb-6 text-lg">Contato</h4>
             <address className="not-italic text-muted-foreground text-sm space-y-3">
               <p>
-                Largo Sete Setembro, nº1000 - 5º andar<br />
+                Largo Sete Setembro, nº34 - 5º andar<br />
                 Sé, São Paulo - SP<br />
               </p>
               <p>

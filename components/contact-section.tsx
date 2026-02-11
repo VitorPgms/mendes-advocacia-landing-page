@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Endereço",
-    content: "Largo Sete Setembro, nº1000 - 5º andar\n Sé, São Paulo - SP\n\nRua Maria Paula Gambier Costa, nº960\n Centro, Paraguaçu Paulista - SP",
+    content: "Largo Sete Setembro, nº34 - 5º andar\n Sé, São Paulo - SP\n\nRua Maria Paula Gambier Costa, nº960\n Centro, Paraguaçu Paulista - SP",
   },
   {
     icon: Phone,
