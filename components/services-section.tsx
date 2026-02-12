@@ -12,13 +12,13 @@ const services = [
     icon: Building2,
     title: "Direito Criminal e Tribunal do Júri",
     description: "Atuação em processos criminais de competência comum e Tribunal do Júri.",
-    areas: ["Compra e Venda", "Locação", "Regularização", "Due Diligence"],
+    areas: ["Defesa Criminal", "Tribunal do Júri", "Habeas Corpus", "Consultoria Criminal"],
   },
   {
     icon: Home,
     title: "Direito Imobiliário",
     description: "Atuação em contratos, regularização de imóveis, compra e venda, locação e análise jurídica preventiva para segurança patrimonial.",
-    areas: ["Responsabilidade Civil", "Contratos", "Sucessões", "Família"],
+    areas: ["Compra e Venda", "Locação", "Regularização", "Due Diligence"],
   },
   {
     icon: Users,

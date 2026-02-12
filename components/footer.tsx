@@ -29,7 +29,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              Defendendo seus direitos com excelência há mais de 3 anos. 
+              Defendendo seus direitos com excelência. 
               Compromisso, ética e resultados.
             </p>
           </div>
