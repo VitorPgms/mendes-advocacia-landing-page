@@ -32,7 +32,7 @@ export function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
-            Oferecendo soluções jurídicas personalizadas fundamentadas em 3 pós-graduações e experiência em mais de 100 casos, sempre com compromisso, ética e dedicação.
+            Oferecendo soluções jurídicas personalizadas fundamentadas em 3 Pós-graduações e experiência em mais de 100 casos, sempre com compromisso, ética e dedicação.
           </p>
 
           {/* CTA Buttons */}

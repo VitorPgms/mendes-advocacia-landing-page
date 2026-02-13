@@ -29,8 +29,8 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              Defendendo seus direitos com excelência. 
-              Compromisso, ética e resultados.
+              Defendendo seus direitos com excelência,
+              compromisso, ética e resultados.
             </p>
           </div>
 
